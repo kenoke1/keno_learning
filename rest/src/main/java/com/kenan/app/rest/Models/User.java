@@ -1,7 +1,7 @@
 package com.kenan.app.rest.Models;
 
 import jakarta.persistence.*;
-
+//novi branch
 @Entity
 public class User {
     @Id
@@ -15,10 +15,7 @@ public class User {
     private int age;
     @Column
     private String occupation;
-
-    private long getId(){
-        return id;
-    }
+    // username, password, email, licna karta, 
 
     public void setId(long id){
         this.id = id;
